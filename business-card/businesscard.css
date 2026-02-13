@@ -1,0 +1,39 @@
+body {
+    margin: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.me {
+    width:100px;
+    box-shadow: 5px 5px 0px rgb(0, 0, 0,0.2) ;
+    transition: background-color 0.3s ease;
+}
+.me:hover {
+    cursor: pointer;
+}
+.card {
+    background : #ddebf8;
+    border-bottom: 8px solid #d8cefe ;
+    box-shadow: 10px 10px 0px rgb(0, 0, 0,0.2) ;
+    width : 450px;
+    margin: 0px auto;
+    padding: 20px 40px 20px 40px;
+    display : flex;
+    justify-content: space-evenly;
+    
+}
+.info {
+    text-align: center;
+    color: #2b2839;
+    font-size: 15px;
+    text-shadow: 2px 2px 0px rgb(0, 0, 0,0.2) ;
+    transition: background-color 0.3s ease;
+
+}
+.info:hover {
+    background-color: lightblue;
+    border-radius:20px; /* New background color */
+    color: black;              /* New text color */
+    cursor: pointer; 
+}
+
